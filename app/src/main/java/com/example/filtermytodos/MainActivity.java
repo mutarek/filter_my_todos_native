@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void sortModels(List<Todos> todoslists) {
+        //filtering list
         todos = todoslists;
         todoAdapter.setTodoList(todoslists);
     }
